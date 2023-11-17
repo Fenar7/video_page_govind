@@ -62,7 +62,7 @@ body{
 
 .description{
     background-color: #b3f8e6;
-    padding: 0.8em;
+    padding: 1em;
     border-radius: 0.4rem;
     margin: 1em 1em;
     h4{
@@ -85,14 +85,23 @@ body{
     display: flex;
 
     button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3em;
         border: none;
         outline: none;
         color: #fff;
         padding: 0.6em 1em;
         font-size: 0.9rem;
-        border-radius: 1rem;
+        border-radius: 3rem;
         font-weight:500;
         background-color: #216150;
+        transition: all .3s ease-out;
+    }
+    button:hover{
+        cursor: pointer;
+        transform: scale(1.05);
     }
 }
 

@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+body {
+  font-family: Poppins;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container-2 {
+  margin: 0em 0.5em;
+}/*# sourceMappingURL=global.css.map */

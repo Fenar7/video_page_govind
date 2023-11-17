@@ -1,18 +1,23 @@
 /* Hide the Google Drive pop-out button */
+body{
+    font-family: Poppins;
+}
 #driveVideo[src*="drive.google.com"] .ndfHFb-c4YZDc {
     display: none !important;
 }
-.video-container{
-    position: relative;
-    padding: 0em 1em;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    iframe{
-        width: 100%;
-        height: 20vh;
-    }
+body{
+    margin: 0;
 }
+// .video-container{
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     iframe{
+//         width: 100%;
+//         height: 25vh;
+//     }
+// }
 .disabler{
     position: absolute;
     top: 0px;
@@ -22,3 +27,72 @@
     background-color: transparent;
     z-index: 100;
 }
+
+.video-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    max-height: 500px;
+    height: 0;
+    @media(min-width: 900px){
+        padding-bottom: 500px;
+    }
+}
+.video-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    border: none;
+}
+
+.heading{
+    h1{
+        margin-top: 0.5em;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    padding-bottom: 0.5em;
+
+    border-bottom: 1px solid #54b89d;
+}
+
+.description{
+    background-color: #b3f8e6;
+    padding: 0.8em;
+    border-radius: 0.4rem;
+    margin: 1em 1em;
+    h4{
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #216150;
+        margin-bottom: 0.3rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+.button-container{
+    margin-top: 1rem;
+    width: 100%;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    display: flex;
+
+    button{
+        border: none;
+        outline: none;
+        color: #fff;
+        padding: 0.6em 1em;
+        font-size: 0.9rem;
+        border-radius: 1rem;
+        font-weight:500;
+        background-color: #216150;
+    }
+}
+

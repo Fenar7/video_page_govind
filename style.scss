@@ -1,0 +1,18 @@
+/* Hide the Google Drive pop-out button */
+#driveVideo[src*="drive.google.com"] .ndfHFb-c4YZDc {
+    display: none !important;
+}
+.video-container{
+    position: relative;
+    width: 640px;
+    height: 480px;
+}
+.disabler{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    z-index: 100;
+}

@@ -12,6 +12,29 @@ a {
   color: unset;
 }
 
+.home-container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 2em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 27%, rgb(9, 132, 25) 100%);
+  border-radius: 1rem;
+}
+.home-container img {
+  width: 100px;
+}
+.home-container h1 {
+  font-size: 1.5rem;
+  color: #098419;
+}
+.home-container p {
+  font-size: 1rem;
+}
+
 .container {
   padding: 2em 6em;
 }
@@ -49,6 +72,7 @@ a {
 }
 .container .card h1 {
   font-size: 1.5rem;
+  color: #098419;
 }
 .container .card .description {
   max-height: 6rem;
@@ -73,11 +97,11 @@ a {
 
 /* Thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background-color: #216150; /* Color of the thumb */
+  background-color: #ffdd0c; /* Color of the thumb */
   border-radius: 4px; /* Rounded corners */
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color: #b3f8e6; /* Color of the track */
+  background-color: #fff4ae; /* Color of the track */
 }/*# sourceMappingURL=home.css.map */

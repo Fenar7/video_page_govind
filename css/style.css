@@ -75,7 +75,9 @@ body {
   margin-bottom: 0.3rem;
 }
 .description p {
-  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-size: 0.7rem;
 }
 
 .button-container {

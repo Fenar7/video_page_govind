@@ -20,8 +20,8 @@ a {
   justify-content: center;
   margin: 2em 2em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background: rgb(255, 255, 255);
-  background: radial-gradient(circle, rgb(255, 255, 255) 27%, rgb(34, 173, 52) 100%);
+  background: rgb(255, 251, 172);
+  background: radial-gradient(circle, rgb(255, 251, 172) 27%, rgb(34, 173, 52) 100%);
   border-radius: 1rem;
 }
 .home-container img {

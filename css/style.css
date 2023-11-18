@@ -21,6 +21,13 @@ body {
   z-index: 100;
 }
 
+.bottom-container {
+  margin: 1em 1em;
+  padding: 1em;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .video-container {
   position: relative;
   overflow: hidden;
@@ -57,7 +64,7 @@ body {
 
 .description {
   background-color: #b3f8e6;
-  padding: 1em;
+  padding: 1.4em;
   border-radius: 0.4rem;
   margin: 1em 1em;
 }

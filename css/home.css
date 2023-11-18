@@ -21,7 +21,7 @@ a {
   margin: 2em 2em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: rgb(255, 255, 255);
-  background: radial-gradient(circle, rgb(255, 255, 255) 27%, rgb(9, 132, 25) 100%);
+  background: radial-gradient(circle, rgb(255, 255, 255) 27%, rgb(34, 173, 52) 100%);
   border-radius: 1rem;
 }
 .home-container img {

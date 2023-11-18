@@ -12,7 +12,8 @@ a{
 }
 
 .home-container{
-    height: 60vh;
+    min-height: 60vh;
+    padding: 1em 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +23,7 @@ a{
     background: rgb(255,251,172);
     background: radial-gradient(circle, rgba(255,251,172,1) 27%, rgba(34,173,52,1) 100%);
     border-radius: 1rem;
+    text-align: center;
 
     img{
         width: 100px;
